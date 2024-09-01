@@ -51,3 +51,15 @@
                 ├── index.ts
                 └── ...
 ```
+
+### Convention
+1. **Naming Conventions**:
+   - **Modules**: Use PascalCase for module names (e.g., `UsersModule`).
+   - **Controllers**: Use PascalCase for controller names and suffix with `Controller` (e.g., `UsersController`).
+   - **Services**: Use PascalCase for service names and suffix with `Service` (e.g., `UsersService`).
+   - **DTOs**: Use PascalCase for Data Transfer Object names and suffix with `Dto` (e.g., `CreateUsersDto`).
+
+2. **File Organization**:
+   - Group related files by feature or domain.
+   - Each module should contain its own `module.ts`, `controller.ts`, `service.ts`, `interfaces/`,and a `dto/`.
+
